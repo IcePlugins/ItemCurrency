@@ -68,7 +68,7 @@ namespace ExtraConcentratedJuice.ItemCurrency.Commands
             }
 
             UnturnedPlayer player = (UnturnedPlayer)caller;
-            ItemAsset asset = (ItemAsset)Assets.find(EAssetType.ITEM, (ushort)id);
+            ItemAsset asset = (ItemAsset)Assets.find(EAssetType.ITEM, id);
 
             var money = Util.FindMoney(player.Inventory);
             var cost = new List<MoneyValue>();

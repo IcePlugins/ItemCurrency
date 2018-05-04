@@ -56,6 +56,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\CommandValue.cs" />
     <Compile Include="Commands\CommandSell.cs" />
     <Compile Include="Commands\CommandBuy.cs" />
     <Compile Include="Commands\CommandBalance.cs" />

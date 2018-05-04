@@ -24,7 +24,7 @@ namespace ExtraConcentratedJuice.ItemCurrency.Commands
 
         public List<string> Aliases => new List<string> { "bal" };
 
-        public List<string> Permissions => new List<string> { "itemcurrency.buy" };
+        public List<string> Permissions => new List<string> { "itemcurrency.balance" };
         #endregion
 
         public void Execute(IRocketPlayer caller, string[] args)
